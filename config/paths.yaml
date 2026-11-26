@@ -1,0 +1,11 @@
+# Raw data lives outside the repo (read-only, never edited)
+raw_root: "E:/Data_Analytic/Dataset/TOCFL"
+mock_dir: "E:/Data_Analytic/Dataset/TOCFL/01_mock_test/bandA"
+vocab_xlsx: "E:/Data_Analytic/Dataset/TOCFL/02_vocabulary_lists/8000zhuyin_202409/華語八千詞_含注音字型檔/華語八千詞表20240923.xlsx"
+topic_pdf: "E:/Data_Analytic/Dataset/TOCFL/03_test_design_examples/shuo_qing_hua_jing .pdf"
+attempts_dir: "E:/Data_Analytic/Dataset/TOCFL/04_my_attempts"
+
+# Repo-local
+interim_dir: "data/interim"
+processed_dir: "data/processed"
+duckdb_path: "data/processed/tocfl.duckdb"

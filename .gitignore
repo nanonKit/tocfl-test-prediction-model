@@ -1,0 +1,31 @@
+# --- data (SC-TOP content is "All rights reserved": never commit raw/extracted items) ---
+data/interim/*
+data/processed/*
+!data/**/.gitkeep
+*.duckdb
+*.duckdb.wal
+*.parquet
+
+# --- outputs (contain exam vocabulary / personal study data) ---
+outputs/anki/*
+outputs/exports/*
+!outputs/**/.gitkeep
+
+# --- personal notes ---
+KNOWLEDGE_BASE.md
+logics_technical.md
+PHASE_EXECUTION.md
+needs_practice.md
+
+# --- python ---
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+
+# --- os / editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
