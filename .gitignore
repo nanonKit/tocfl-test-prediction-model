@@ -1,6 +1,8 @@
 # --- data (SC-TOP content is "All rights reserved": never commit raw/extracted items) ---
 data/interim/*
 data/processed/*
+# data/manual = hand-curated files with exam text: back up locally, never commit
+data/manual/*
 !data/**/.gitkeep
 *.duckdb
 *.duckdb.wal
