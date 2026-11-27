@@ -25,7 +25,7 @@ class Segment:
     set_id: str
     part: int
     q_no: int
-    seg: int                    # order of the segment inside its question
+    seq: int                    # order of the segment inside its question
     seg_type: str               # stem | option | utterance
     option_label: str           # A-D for option, "" otherwise
     speaker: str                # 男 / 女 / 女1 for utterances, "" otherwise
