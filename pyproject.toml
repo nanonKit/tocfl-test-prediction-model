@@ -9,4 +9,10 @@ dependencies = [
     "pandas>=3.1.1",
     "pymupdf>=2.2",
     "pyyaml>=6.0.4",
+    "rapidocr-onnxruntime>=1.4.4",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.17.6",
 ]
