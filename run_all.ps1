@@ -18,7 +18,8 @@ $steps = @(
     "05_ocr_images.py",
     "05b_check_ocr.py",
     "06_clean_vocab.py",
-    "07_segment.py"
+    "07_segment.py",
+    "08_build_db.py"
 )
 
 uv run ruff check src/
